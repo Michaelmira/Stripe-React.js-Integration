@@ -1,3 +1,21 @@
+pipenv install stripe
+
+npm install 
+npm install stripe
+npm install @stripe/react-stripe-js @stripe/stripe-js
+
+
+		"@stripe/react-stripe-js": "^2.8.1",
+		"@stripe/stripe-js": "^4.9.0",
+		"googleapis": "^144.0.0",
+
+https://dashboard.stripe.com/register
+get your 2 keys, Publishable key and secret key put these in your .env
+1. STRIPE_SECRET_KEY=
+2. REACT_APP_STRIPE_PUBLIC_KEY=
+
+
+
 # WebApp boilerplate with React JS and Flask API
 
 Build web applications using React.js for the front end and python/flask for your backend API.
